@@ -126,7 +126,7 @@ def main():
         if activate:
             aux.setPos(x,y)
         
-        surface.fill((237, 187, 153))
+        surface.fill((100,0,255))
         #Se pintan todas las figuras
         for i in range(len(Figuras)):
             Figuras[i].draw(surface)
