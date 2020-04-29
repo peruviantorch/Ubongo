@@ -33,6 +33,27 @@ class CFigura:
         elif self.nF == 6:
             self.forma = [(self.x+50, self.y), (self.x+100, self.y), (self.x+100, self.y+150), (self.x, self.y+150), (self.x, self.y+50), (self.x+50, self.y+50)]
             self.col = (120, 255, 8)
+                elif self.nF == 7:
+            self.forma = [(self.x, self.y), (self.x + 200, self.y), (self.x + 200, self.y + 50), (self.x, self.y + 50)]
+            self.col = (112, 25, 3)
+        elif self.nF == 8:
+            self.forma = [(self.x, self.y), (self.x + 200, self.y), (self.x + 200, self.y + 50), (self.x + 100, self.y + 50),
+                          (self.x + 100, self.y + 100), (self.x + 50, self.y + 100), (self.x + 50, self.y + 50), (self.x, self.y + 50)]
+            self.col = (255, 100, 22)
+        elif self.nF == 9:
+            self.forma = [(self.x, self.y), (self.x+50, self.y), (self.x+50, self.y+100), (self.x, self.y + 100)]
+            self.col = (150, 0, 144)
+        elif self.nF == 10:
+            self.forma = [(self.x+50, self.y), (self.x+100, self.y), (self.x+100, self.y+100), (self.x+50,self.y + 100),
+                          (self.x+50,self.y + 150), (self.x, self.y + 150), (self.x,self.y + 50), (self.x + 50, self.y + 50)]
+            self.col = (24, 0, 144)
+        elif self.nF == 11:
+            self.forma = [(self.x+50, self.y), (self.x+100, self.y), (self.x+100, self.y+150), (self.x, self.y+150),
+                          (self.x, self.y + 100), (self.x+50, self.y + 100)]
+            self.col = (0, 255, 0)
+        elif self.nF == 12:
+            self.forma = [(self.x, self.y), (self.x+100, self.y), (self.x+100, self.y+100), (self.x, self.y+100)]
+            self.col = (255, 0, 0)
     
     def draw(self, screen):
         self.ActuForma()
